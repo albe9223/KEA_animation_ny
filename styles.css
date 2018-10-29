@@ -1,0 +1,477 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+
+}
+
+#game_background {
+    background: url("produktion/artboard_baggrund.svg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+
+#artboard_cortado {
+    background-image: url("produktion/artboard_cortado.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 1vw;
+    left: 22vw;
+    z-index: 2;
+    transform-origin: 50% 50%;
+}
+
+
+#artboard_cortado2 {
+    background-image: url("produktion/artboard_cortado.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 25vw;
+    left: 5vw;
+    z-index: 1;
+    transform-origin: 50% 50%;
+}
+
+
+#artboard_cortado3 {
+    background-image: url("produktion/artboard_cortado.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 10vw;
+    left: 10vw;
+    z-index: 1;
+    transform-origin: 50% 50%;
+}
+
+
+#artboard_cortado4 {
+    background-image: url("produktion/artboard_cortado.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 38vw;
+    left: 25vw;
+    z-index: 1;
+    transform-origin: 50% 50%;
+
+}
+
+
+#artboard_cortado5 {
+    background-image: url("produktion/artboard_cortado.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 23vw;
+    left: 38vw;
+    z-index: 1;
+    transform-origin: 50% 50%;
+}
+
+#artboard_cortado6 {
+    background-image: url("produktion/artboard_cortado.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 40vw;
+    left: 60vw;
+    z-index: 1;
+    transform-origin: 50% 50%;
+}
+
+
+#artboard_cortado7 {
+    background-image: url("produktion/artboard_cortado.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 30vw;
+    left: 72vw;
+    z-index: 1;
+    transform-origin: 50% 50%;
+}
+
+#artboard_cortado8 {
+    background-image: url("produktion/artboard_cortado.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 14vw;
+    left: 72vw;
+    z-index: 1;
+    transform-origin: 50% 50%;
+}
+
+#artboard_cortado9 {
+    background-image: url("produktion/artboard_cortado.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 11vw;
+    left: 57vw;
+    z-index: 1;
+    transform-origin: 50% 50%;
+}
+
+#artboard_cortado10 {
+    background-image: url("produktion/artboard_cortado.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 0.2vw;
+    left: 48vw;
+    z-index: 1;
+    transform-origin: 50% 50%;
+}
+
+
+/* ------------------- DECAF --------------- */
+
+#artboard_decaf {
+    background-image: url("produktion/artboard_decaf.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 40vw;
+    left: 10vw;
+    z-index: 2;
+    transform-origin: 50% 50%;
+}
+
+#artboard_decaf2 {
+    background-image: url("produktion/artboard_decaf.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 40vw;
+    left: 42vw;
+    z-index: 2;
+    transform-origin: 50% 50%;
+}
+
+#artboard_decaf3 {
+    background-image: url("produktion/artboard_decaf.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 20vw;
+    left: 22vw;
+    z-index: 2;
+    transform-origin: 50% 50%;
+}
+
+#artboard_decaf4 {
+    background-image: url("produktion/artboard_decaf.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 8vw;
+    left: 36vw;
+    z-index: 2;
+    transform-origin: 50% 50%;
+}
+
+#artboard_decaf5 {
+    background-image: url("produktion/artboard_decaf.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 26vw;
+    left: 54vw;
+    z-index: 2;
+    transform-origin: 50% 50%;
+}
+
+#artboard_decaf6 {
+    background-image: url("produktion/artboard_decaf.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 14vw;
+    height: 22vw;
+    position: absolute;
+    top: 0.2vw;
+    left: 67vw;
+    z-index: 2;
+    transform-origin: 50% 50%;
+}
+
+/*------------------- Time & Settings -----------*/
+
+#time {
+    background-image: url("produktion/artboard_kaffekande.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 12vw;
+    height: 20vw;
+    position: absolute;
+    top: 0.3vw;
+    left: 2vw;
+    z-index: 2;
+}
+
+#settings {
+    background-image: url("produktion/artboard_settings.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 8vw;
+    height: 16vw;
+    position: absolute;
+    top: 48vw;
+    left: 1.0vw;
+    z-index: 2;
+}
+
+/*------------------- KAFFEBEAN -----------*/
+
+#artboard_kaffebean {
+    background-image: url("produktion/artboard_kaffebean.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 2.5vw;
+    height: 5vw;
+    position: absolute;
+    top: 9vw;
+    left: 93.4vw;
+    z-index: 2;
+}
+
+#artboard_kaffebean2 {
+    background-image: url("produktion/artboard_kaffebean.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 2.5vw;
+    height: 5vw;
+    position: absolute;
+    top: 13vw;
+    left: 93.4vw;
+    z-index: 2;
+}
+
+#artboard_kaffebean3 {
+    background-image: url("produktion/artboard_kaffebean.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 2.5vw;
+    height: 5vw;
+    position: absolute;
+    top: 17vw;
+    left: 93.4vw;
+    z-index: 2;
+}
+
+#artboard_kaffebean4 {
+    background-image: url("produktion/artboard_kaffebean.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 2.5vw;
+    height: 5vw;
+    position: absolute;
+    top: 21vw;
+    left: 93.4vw;
+    z-index: 2;
+}
+
+#artboard_kaffebean5 {
+    background-image: url("produktion/artboard_kaffebean.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 2.5vw;
+    height: 5vw;
+    position: absolute;
+    top: 25vw;
+    left: 93.4vw;
+    z-index: 2;
+}
+
+#artboard_kaffebean6 {
+    background-image: url("produktion/artboard_kaffebean.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 2.5vw;
+    height: 5vw;
+    position: absolute;
+    top: 29vw;
+    left: 93.4vw;
+    z-index: 2;
+}
+
+#artboard_kaffebean7 {
+    background-image: url("produktion/artboard_kaffebean.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 2.5vw;
+    height: 5vw;
+    position: absolute;
+    top: 33vw;
+    left: 93.4vw;
+    z-index: 2;
+}
+
+#artboard_kaffebean8 {
+    background-image: url("produktion/artboard_kaffebean.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 2.5vw;
+    height: 5vw;
+    position: absolute;
+    top: 37vw;
+    left: 93.4vw;
+    z-index: 2;
+}
+
+#artboard_kaffebean9 {
+    background-image: url("produktion/artboard_kaffebean.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 2.5vw;
+    height: 5vw;
+    position: absolute;
+    top: 41vw;
+    left: 93.4vw;
+    z-index: 2;
+}
+
+#artboard_kaffebean10 {
+    background-image: url("produktion/artboard_kaffebean.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 2.5vw;
+    height: 5vw;
+    position: absolute;
+    top: 45vw;
+    left: 93.4vw;
+    z-index: 2;
+}
+
+/*---------------- Start ----------------- */
+
+
+#spil_background {
+    background: url("produktion/artboard_spilside.svg");
+    height: 100vw;
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+
+}
+
+#intro {
+    background-image: url("produktion/Artboard_intro.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 40vw;
+    height: 40vw;
+    position: absolute;
+    top: 15vw;
+    left: 30vw;
+    z-index: 2;
+}
+}
+
+
+#spil {
+    background-image: url("produktion/artboard_spil.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    top: 15vw;
+    left: 30vw;
+    z-index: 2;
+}
+
+/*------------ EFFEKTER ------------ */
+
+.roter {
+
+    animation-name: roter_kf;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+
+
+}
+
+@keyframes roter_kf {
+
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+
+    100% {
+
+        transform: rotate(360deg);
+
+    }
+}
