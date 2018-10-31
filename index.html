@@ -11,20 +11,13 @@
 
 <body>
 
-      <nav>
-            <a href="index.html">FORSIDE</a>
-            <a href="behandlinger.html">BEHANDLINGER OG GODE RÅD</a>
-            <a href="produkter.html">PRODUKTER</a>
-            <a href="galleri.html">GALLERI</a>
-            <a href="videoer.html">VIDEOER</a>
-        </nav>
 
     <div id="screen">
-        <div id="menu_background"></div>
+        <div id="menu_background" class="hide"></div>
         <div id="game">
             <div id="game_background"></div>
 
-            <div id="game_elements">
+            <div id="game_elements" class="hide">
 
                 <div id="artboard_cortado" class="roter"></div>
                 <div id="artboard_cortado2" class="roter"></div>
@@ -44,6 +37,11 @@
                 <div id="artboard_decaf5" class="roter"></div>
                 <div id="artboard_decaf6" class="roter"></div>
 
+            </div>
+
+
+
+            <div id="game_ui" class="hide">
                 <div id="artboard_kaffebean"></div>
                 <div id="artboard_kaffebean2"></div>
                 <div id="artboard_kaffebean3"></div>
@@ -54,22 +52,30 @@
                 <div id="artboard_kaffebean8"></div>
                 <div id="artboard_kaffebean9"></div>
                 <div id="artboard_kaffebean10"></div>
-
-
-
-            </div>
-
-            <div id="game_ui">
-                <div id="points"></div>
-                <div id="engery"></div>
+                <div id="kaffebeans"></div>
                 <div id="time"></div>
+                <div id="settingknap"></div>
+
+                <div id="replay" class="hide"></div>
+                <div id="exit" class="hide"></div>
+
             </div>
+
         </div>
-        <div id="spil"></div>
-        <div id="settings"></div>
-        <div id="gameover"></div>
-        <div id="win"></div>
+        <div id="start" class="hide">
+            <div id="play"></div>
+            <div id="settingknap"></div>
+
+        </div>
+
+        <div id="intro" class="hide"></div>
+        <div id="settings" class="hide"></div>
+        <div id="gameover" class="hide"></div>
+        <div id="levelcomplete" class="hide"></div>
     </div>
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>

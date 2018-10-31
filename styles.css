@@ -5,13 +5,29 @@ html {
 
 }
 
+.hide{
+
+display: none;
+}
+
+#screen {
+
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+    background: url("produktion/artboard_spilside.svg");
+
+
+}
+
 #game_background {
     background: url("produktion/artboard_baggrund.svg");
-    height: 100vh;
+
     width: 100vw;
+    height: 56.25vw;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
 
 
 }
@@ -248,35 +264,8 @@ html {
     transform-origin: 50% 50%;
 }
 
-/*------------------- Time & Settings -----------*/
 
-#time {
-    background-image: url("produktion/artboard_kaffekande.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-    width: 12vw;
-    height: 20vw;
-    position: absolute;
-    top: 0.3vw;
-    left: 2vw;
-    z-index: 2;
-}
-
-#settings {
-    background-image: url("produktion/artboard_settings.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-    width: 8vw;
-    height: 16vw;
-    position: absolute;
-    top: 48vw;
-    left: 1.0vw;
-    z-index: 2;
-}
-
-/*------------------- KAFFEBEAN -----------*/
+/*------------------- KAFFEBEANS -----------*/
 
 #artboard_kaffebean {
     background-image: url("produktion/artboard_kaffebean.svg");
@@ -287,7 +276,7 @@ html {
     height: 5vw;
     position: absolute;
     top: 9vw;
-    left: 93.4vw;
+    left: 94vw;
     z-index: 2;
 }
 
@@ -300,7 +289,7 @@ html {
     height: 5vw;
     position: absolute;
     top: 13vw;
-    left: 93.4vw;
+    left: 94vw;
     z-index: 2;
 }
 
@@ -313,7 +302,7 @@ html {
     height: 5vw;
     position: absolute;
     top: 17vw;
-    left: 93.4vw;
+    left: 94vw;
     z-index: 2;
 }
 
@@ -326,7 +315,7 @@ html {
     height: 5vw;
     position: absolute;
     top: 21vw;
-    left: 93.4vw;
+    left: 94vw;
     z-index: 2;
 }
 
@@ -339,7 +328,7 @@ html {
     height: 5vw;
     position: absolute;
     top: 25vw;
-    left: 93.4vw;
+    left: 94vw;
     z-index: 2;
 }
 
@@ -352,7 +341,7 @@ html {
     height: 5vw;
     position: absolute;
     top: 29vw;
-    left: 93.4vw;
+    left: 94vw;
     z-index: 2;
 }
 
@@ -365,7 +354,7 @@ html {
     height: 5vw;
     position: absolute;
     top: 33vw;
-    left: 93.4vw;
+    left: 94vw;
     z-index: 2;
 }
 
@@ -378,7 +367,7 @@ html {
     height: 5vw;
     position: absolute;
     top: 37vw;
-    left: 93.4vw;
+    left: 94vw;
     z-index: 2;
 }
 
@@ -391,7 +380,7 @@ html {
     height: 5vw;
     position: absolute;
     top: 41vw;
-    left: 93.4vw;
+    left: 94vw;
     z-index: 2;
 }
 
@@ -404,40 +393,58 @@ html {
     height: 5vw;
     position: absolute;
     top: 45vw;
-    left: 93.4vw;
+    left: 94vw;
     z-index: 2;
 }
 
-/*---------------- Start ----------------- */
+/*------------------- GAME UI -----------*/
 
-
-#spil_background {
-    background: url("produktion/artboard_spilside.svg");
-    height: 100vw;
-    width: 100vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-
-}
-
-#intro {
-    background-image: url("produktion/Artboard_intro.svg");
+#time {
+    background-image: url("produktion/artboard_kaffekande.svg");
     background-repeat: no-repeat;
     background-size: 100%;
 
-    width: 40vw;
-    height: 40vw;
+    width: 12vw;
+    height: 20vw;
     position: absolute;
-    top: 15vw;
-    left: 30vw;
+    top: 0.3vw;
+    left: 2vw;
+    z-index: 2;
+
+}
+
+#settingknap {
+    background-image: url("produktion/artboard_settings.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 8vw;
+    height: 16vw;
+    position: absolute;
+    top: 48vw;
+    left: 1.0vw;
     z-index: 2;
 }
+
+
+#play {
+  position: absolute;
+  width: 20vw;
+  height: 10vw;
+  background-image: url(produktion/artboard_spil.svg);
+  background-size: 100%;
+  left: 41vw;
+  top: 45vw;
+cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+splay: none;
 }
 
 
-#spil {
-    background-image: url("produktion/artboard_spil.svg");
+#replay {
+    background-image: url("produktion/artboard_replay.svg");
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -447,6 +454,85 @@ html {
     top: 15vw;
     left: 30vw;
     z-index: 2;
+    display: none;
+}
+
+
+#exit {
+    background-image: url("produktion/artboard_exit.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    top: 15vw;
+    left: 30vw;
+    z-index: 2;
+    display: none;
+}
+
+
+/*------------------- TEKSTBOKSE -----------*/
+
+
+#start {
+    background: url(produktion/artboard_titel.svg);
+    width: 100vw;
+    height: 56.25vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+
+}
+
+#intro {
+    background: url(produktion/Artboard_intro.svg);
+    height: 100vw;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 0vw;
+    display: none;
+}
+
+#settings {
+    background: url(produktion/Artboard_setting_boks.svg);
+    height: 100vw;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 0vw;
+    display: none;
+}
+
+#gameover {
+    background: url(produktion/Artboard_slut.svg);
+    height: 100vw;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 0vw;
+    display: none;
+}
+
+#levelcomplete {
+
+    background: url(produktion/Artboard_vild.svg);
+    height: 100vw;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 0vw;
+    display: none;
 }
 
 /*------------ EFFEKTER ------------ */
@@ -472,6 +558,51 @@ html {
     100% {
 
         transform: rotate(360deg);
-
     }
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+.blur {
+  filter:blur(5px) brightness(80%);
+}
+
+.fade_out {
+  animation-name: fadeout_kf;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeout_kf {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.pulse {
+  animation-name: pulse_kf;
+  animation-duration: 1.7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+
+@keyframes pulse_kf {
+  0% {
+    transform: scale(0.97);
+  }
+  100% {
+    transform: scale(1.2);
+  }
 }
